@@ -19,7 +19,9 @@ result = 0
 for i in range (num_el):
     if list [i] == number:
         result+=1
-if result == 0:
-    print ('-1')
-else:
-    print (f'Заданное число встречается {result} раз')
+# if result == 0:
+#     print ('-1')
+# else:
+#     print (f'Заданное число встречается {result} раз')
+# *Усложнение. При выводе результата на экран воспользуйтесь тернарным оператором.
+print (f'Заданное число встречается {result} раз') if result != 0 else print('-1')
